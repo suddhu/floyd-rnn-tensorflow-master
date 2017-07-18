@@ -17,7 +17,7 @@ def main():
     parser = argparse.ArgumentParser()
     parser.add_argument('--save_dir', type=str, default='save',
                        help='model directory to load stored checkpointed models from')
-    parser.add_argument('-n', type=int, default=150,
+    parser.add_argument('-n', type=int, default=120,
                        help='number of words to sample')
     parser.add_argument('--prime', type=str, default=' ',
                        help='prime text')
@@ -54,7 +54,6 @@ def sample(args):
             l = 0
             count = 0
 
-
             while(i<len(w)):
                 n = numpy.random.choice(numpy.arange(1, 8), p=[0.01, 0.01, 0.04, 0.3, 0.3, 0.24,0.1])
 
@@ -65,18 +64,28 @@ def sample(args):
                 line = line.replace("]","")
                 line = line.replace("(","")
                 line = line.replace(")","")
+                line = line.replace(".","")
 
                 i = i + n
 
                 line = line.capitalize()
 
-                text_file.write(line + '\n')
+                text_file.write(line)
+
                 count = count + 1
                 if (count==L[l] and l<3):
-                    text_file.write('\n')
+                    text_file.write('.' + '\n')
                     count = 0
                     l = l + 1
 
+
+                text_file.write('\n')
+
+            text_file.close()
+
+            text_file = open("Output.txt","r")
+            data = text_file.read()
+            print('\n' + data)
             text_file.close()
 
 if __name__ == '__main__':

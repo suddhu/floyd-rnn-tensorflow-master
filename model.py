@@ -118,9 +118,7 @@ class Model():
             state = sess.run(self.cell.zero_state(1, tf.float32))
             if not len(prime) or prime == ' ':
                 prime  = random.choice(list(vocab.keys()))
-            print (prime)
             for word in prime.split()[:-1]:
-                print (word)
                 x = np.zeros((1, 1))
                 x[0, 0] = vocab.get(word,0)
                 feed = {self.input_data: x, self.initial_state:state}
