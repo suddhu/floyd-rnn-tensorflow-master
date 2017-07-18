@@ -1,9 +1,9 @@
 # floyd-rnn-tensorflow-master
 Tensorflow based RNN implementation that generates (awful) Pink Floyd lyrics for Python. 
 
-It features the Multi-Layer Recurrent Neural Network, as used by Sherjil Ozair's [word-rnn-tensorflow](https://github.com/hunkim/word-rnn-tensorflow)<sup>1</sup>. While the training script remains the same, the sampling has been modified to best-represent lyric semantics. 
+It features the Multi-Layer Recurrent Neural Network, as used by Sherjil Ozair's [word-rnn-tensorflow](https://github.com/hunkim/word-rnn-tensorflow)<b><sup>1</sup></b>. While the training script remains the same, the sampling has been modified to best-represent lyric semantics. 
 
-<sup>1</sup>This in turn is mostly derivative of Andrej Karpathy's [char-rnn](https://github.com/karpathy/char-rnn).
+<b><sup>1</sup></b>This in turn is mostly derivative of Andrej Karpathy's [char-rnn](https://github.com/karpathy/char-rnn).
 
 ## Requirements 
 
@@ -24,6 +24,8 @@ python sample.py
 ```
 
 ## Sample output
+
+Here's a few interested results, mildly formatted for the reader's pleasure. I've put together a [Stink Floyd Fantasy LP](SF_fantasy_lp.md), where I've carefully curated my favorite outputs. 
 
 ### A decent one
 ```
@@ -60,37 +62,36 @@ S'il naked to will.
 ### A not-so-decent one
 ```
 Can, combination, brighteyed
-Ooh throng throng lee, falling town
-Where we time out fits on freely,
+Ooh throng, throng Lee! Falling town,
+Where we time out fits on freely.
 Waking the long apprehension you're on
-The river wondering bear
+The river wondering bear. 
 Used some gohills -
 Waking without holds the loud
 Pinky followed in all.
 
 The colours with they
-Rain midnight gentlemen, had wrong and
-Hills off this want i hand
+Rain, midnight gentlemen! Had wrong and
+Hills off this want I hand.
 With when to follow the
-Doors even i've a
-Hopeful i'm dont get.
+Doors even I've a
+Hopeful I'm dont get.
 
 Too surprised suns in formation, the
-Damp in me for
+Damp in me for,
 Is a way my
 Faith to command at the east.
 
 Boy, and let you feeling occasionally
-On me, anybody up the time anybody
-In the film night
-Isn't in a dead day
+On me, anybody up the time - anybody. 
+In the film night,
+Isn't in a dead day.
 With history, in come with
-Babe speak your church make waters
+Babe speak your church make waters!
 ```
 
 You may tweak the parameters of <i>sample.py</i> and see how the lyrics shape up. The script also allocates words per line based on a probability distribution with assigned values. You are free to experiment with the RNN on the discography of other bands. 
 
-
-About
+## About
 
 This project was created by Sudharshan Suresh, but it sources almost completely from the open-source projects mentioned previously. You are free to contact me with any issue/query/suggestion at suddhus at gmail dot com. 
