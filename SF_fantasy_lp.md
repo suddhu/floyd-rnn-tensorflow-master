@@ -1,6 +1,8 @@
-Presenting to you a nice pet project of mine. All the songs have lyrics generated from [floyd-rnn-tensorflow-master](https://github.com/suddhu/floyd-rnn-tensorflow-master), mildly formatted. I read through the lyrics and named them accordingly. Enjoy. 
+# The Stink Floyd Fantasy LP 
 
-> The Stink Floyd Fantasy LP 
+A nice pet project of mine. All the songs have lyrics generated from [floyd-rnn-tensorflow-master](https://github.com/suddhu/floyd-rnn-tensorflow-master), mildly formatted. I read through the lyrics and named them accordingly. Enjoy. 
+
+### The Stink Floyd Fantasy LP 
 >	1. Stormy, Hot Machine Gun (3:59)
 >	2. Green Laddy! (7:01)
 >	3. My Fleeting Bombs (5:30)
@@ -10,7 +12,7 @@ Presenting to you a nice pet project of mine. All the songs have lyrics generate
 >	7. Old Bugger's Around? (5:12)
 >	8. Scarecrow and Near Goodbye (4:22)
 
-## Stormy, Hot Machine Gun (3:59)
+### Stormy, Hot Machine Gun (3:59)
 
 ```
 Slightly piper, stepping up - 
@@ -43,7 +45,7 @@ Hot machine gun, great!
 S'il naked to will.
 ```
 
-## Green Laddy! (7:01)
+### Green Laddy! (7:01)
 ```
 Water, ah drones!
 Of in skies up, float.
@@ -74,7 +76,7 @@ Green laddy! will asked
 It's see a harken.
 ```
 
-##  My Fleeting Bombs (5:30)
+###  My Fleeting Bombs (5:30)
 ```
 Daisy sound afraid, falls and
 Girlfriend along guilty good after.
@@ -105,7 +107,7 @@ Stand blue wonders you,
 You the things to time?
 ```
 
-## Borrowed Octopus (3:10)
+### Borrowed Octopus (3:10)
 ```
 Be been a river gather
 Baby, had yourself you, ev'
@@ -133,7 +135,7 @@ Drank clegg that so brick in
 Your secret oh they eyes.
 ```
 
-## The Moon, My Grubby (4:14)
+### The Moon, My Grubby (4:14)
 ```
 Cage, know hound, mother borne
 His chill was blue.
@@ -167,7 +169,7 @@ The cell, that'll is mane up,
 On.
 ```
 
-##  Chalfont Web (4:55)
+###  Chalfont Web (4:55)
 ```
 While, fate chalfont web. 
 Stardom, invitation chill float in keep dream,
@@ -198,7 +200,7 @@ My strings,
 On the...
 ```
 
-##  Old Bugger's Around? (5:12)
+###  Old Bugger's Around? (5:12)
 ```
 Well don't sinking truly wrong with
 The ride I all.
@@ -234,7 +236,7 @@ Words to beat to their.
 
 And to save the grace of a PF album, my own addition - 
 
-## Scarecrow and Near Goodbye (4:22)
+### Scarecrow and Near Goodbye (4:22)
 ```
 [instrumental]
 ```
