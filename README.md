@@ -1,5 +1,5 @@
 # floyd-rnn-tensorflow-master
-Tensorflow based RNN implementation that generates (awful) Pink Floyd lyrics for Python. I've put together the [Stink Floyd Fantasy LP](SF_fantasy_lp.md), where I've carefully curated my favorite outputs. 
+Tensorflow based RNN implementation that generates (awful) Pink Floyd lyrics for Python. I've put together the [Stink Floyd Fantasy LP](SF-fantasy-LP.md), where I've carefully curated my favorite outputs. 
 
 
 It features the Multi-Layer Recurrent Neural Network, as used by Sherjil Ozair's [word-rnn-tensorflow](https://github.com/hunkim/word-rnn-tensorflow)<b><sup>1</sup></b>. While the training script remains the same, the sampling has been modified to best-represent lyric semantics. 
@@ -26,7 +26,7 @@ python sample.py
 
 ## Sample output
 
-Here's a few interested results, mildly formatted for the reader's pleasure. You can see much more at the [Stink Floyd Fantasy LP](SF_fantasy_lp.md). 
+Here's a few interested results, mildly formatted for the reader's pleasure. You can see much more at the [Stink Floyd Fantasy LP](SF-fantasy-LP.md). 
 ### A decent one
 ```
 Slightly piper, stepping up - 
